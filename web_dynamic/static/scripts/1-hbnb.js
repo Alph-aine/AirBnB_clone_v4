@@ -1,7 +1,7 @@
-$(document).ready(() => {
+$(document).ready(function () {
   // displays list of clicked checkboxes
   let checkList = [];
-  $('input[type=checkbox]').change(() => {
+  $('input[type=checkbox]').change(function () {
     const name = $(this).attr('data-name');
     if ($(this).is(':checked')) {
       checkList.push(name);
