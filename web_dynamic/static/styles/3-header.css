@@ -1,11 +1,27 @@
 header {
-    background: white;
+    background: #FFFFFF;
     height: 70px;
     width: 100%;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
     border-bottom: 1px solid #CCCCCC;
 }
-header .logo {
+/*header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}*/
+header #api_status {
+  float: right;
+  margin-right: 30px;
+  margin-top: 15px;
+  background-color: #cccccc;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#api_status.available {
+  background-color: #ff545f;
 }
